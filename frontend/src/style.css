@@ -169,6 +169,18 @@ th { color: var(--bg-dim); font-weight: 600; font-size: 0.78rem; }
 }
 .btn:hover { filter: brightness(1.08); }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.num-input {
+  width: 5.5rem;
+  background: #0a1a26;
+  color: var(--bg-text);
+  border: 1px solid var(--bg-edge);
+  padding: 0.25rem 0.4rem;
+  font-size: 0.85rem;
+}
+.num-input:focus { outline: none; border-color: var(--bg-cyan); }
+.row-msg { margin-left: 0.5rem; font-size: 0.75rem; }
+.row-msg.ok { color: var(--bg-ok); }
+.row-msg.err { color: var(--bg-red); }
 .muted { color: var(--bg-dim); }
 .stat { font-size: 1.55rem; font-weight: 800; }
 
